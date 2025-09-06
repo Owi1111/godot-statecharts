@@ -3,7 +3,7 @@ extends Node2D
 class_name StateChartMermaid
 
 @export var chart: StateChart
-@export var enabled: bool = false
+@export var enabled: bool = true
 
 var states_string: String = ''
 var transitions_string: String = ''
